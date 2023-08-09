@@ -21,8 +21,6 @@ def predict(request: dict):
     output = int(prediction[0])  # Convertir el valor de la predicción a un entero
     return {'prediction': output}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-        
-    
+#if __name__ == "__main__":
+#    import uvicorn
+#    uvicorn.run(app, host="0.0.0.0", port=8000)
